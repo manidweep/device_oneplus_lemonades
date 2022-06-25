@@ -54,12 +54,13 @@
         <param concurrent_capture="true" />
         <!-- Run.Zhang@MULTIMEDIA.AudioDriver.ST_HAL, 2021/11/08, OPLUS_ARCH_EXTENDS Modify for fixing wakeup during recording end -->
         <param platform_lpi_enable="true" />
-        <!-- Need to be changed to false after testing -->
         <param enable_debug_dumps="false" />
         <param support_non_lpi_without_ec="false" />
         <!-- Kaijia.Lin@MULTIMEDIA.AudioDriver.ST_HAL.2672650, 2019/12/13, OPLUS_BUG_STABILITY Modify for CR#2585011 fixing incall wakeup -->
         <param concurrent_voice_call="false" />
         <param concurrent_voip_call="false" />
+        <!-- Kaijia.Lin@MULTIMEDIA.AudioDriver.ST_HAL.2672650, 2019/12/13, OPLUS_BUG_STABILITY Modify for CR#2585011 fixing incall wakeup END-->
+        <!--param keyword_data_bytes="128000" / END -->
         <!--#alvin.zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2020/12/16, Add for OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH-->
         <param va_mic_clk_switch="true"/>
         <!--#alvin.zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2020/12/16, Add for OPLUS_FEATURE_MIC_VA_MIC_CLK_SWITCH end-->
@@ -109,7 +110,6 @@
             <param sample_rate="16000"/>
             <param bit_wdith="16"/>
             <param channel_count="1"/>
-
         </arm_ss_usecase>
         <arm_ss_usecase>
             <param sm_detection_type= "USER_VERIFICATION" />
@@ -168,7 +168,6 @@
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
-            <!-- liuhaituo@MM.Audio, 2019/10/18, Modify mic config -->
             <param fluence_type="FLUENCE_MIC" />
             <param execution_mode="ADSP" />
             <!-- lpi_mode: "NON_LPI_BARGE_IN", "NON_LPI", "LPI" -->
