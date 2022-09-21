@@ -1,0 +1,4 @@
+device/oneplus/
+vendor/oneplus/
+kernel/oneplus/
+prebuilts/clang/host/linux-x86/clang-liyuu
