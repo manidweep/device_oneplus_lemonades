@@ -58,7 +58,7 @@ TARGET_ENABLE_BLUR := true
 # Set the correct chipset target to be shown in info
 RICE_CHIPSET := SD870
 
-BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220624.021/8877034:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:13/TP1A.220905.004/8927612:user/release-keys
 
 # Maintainer Stuff
 RICE_MAINTAINER := Lord Itachi
